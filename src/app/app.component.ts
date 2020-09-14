@@ -9,7 +9,7 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 export class AppComponent {
   title = 'youtube';
 
-  authUrl = 'https://accounts.google.com/o/oauth2/v2/auth';
+  authUrl = 'https://accounts.google.com/o/oauth2/auth';
   clientId = '742807933429-jhpvdhlqqltca6ikcevcddhji48e3itk.apps.googleusercontent.com';
   clientSecret = 'WCuamXhFB7zPI4C54aFiBvtA';
   responseType = 'token';
